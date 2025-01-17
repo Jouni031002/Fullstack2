@@ -1,4 +1,4 @@
-import mongoose from "mongoose"
+import mongoose from 'mongoose'
 
 //testiii
 
@@ -8,7 +8,7 @@ const url = process.env.MONGODB_URI
 
 console.log('connecting to', url)
 mongoose.connect(url)
-  .then(result => {
+  .then(() => {
     console.log('connected to MongoDB')
   })
   .catch((error) => {
@@ -28,4 +28,4 @@ personSchema.set('toJSON', {
   }
 })
 
-export default mongoose.model('Person', personSchema);
+export default mongoose.model('Person', personSchema)
