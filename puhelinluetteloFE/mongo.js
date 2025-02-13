@@ -12,8 +12,7 @@ const name = process.argv[3]
 const number = process.argv[4]
 
 
-const url =
-  `mongodb+srv://fullstack:kissa@cluster0.egzzy.mongodb.net/PersonsApp?retryWrites=true&w=majority&appName=Cluster0`
+const url = process.env.MONGODB_URI
 
 mongoose.set('strictQuery', false)
 mongoose.connect(url)
