@@ -34,6 +34,16 @@ export default [
         { allowConstantExport: true },
       ],
       'react/prop-types': 0,
+       eqeqeq: 'error',
+      'no-trailing-spaces': 'error'
     },
   },
+  {
+    files: ['**/*.test.{js,jsx}'],
+    languageOptions: {
+      globals: {
+        ...globals.vitest
+      }
+    }
+  }
 ]
