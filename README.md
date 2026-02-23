@@ -16,7 +16,7 @@ Blog List Application
 
 A full stack blog list application where users can save and manage blog posts.
 
-Technologies
+Technologies used:
 
 React
 
@@ -28,7 +28,7 @@ MongoDB
 
 REST API
 
-What I Learned
+What I Learned:
 
 Building full stack applications
 
