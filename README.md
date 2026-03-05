@@ -14,7 +14,7 @@ https://fullstack2-phonebook.onrender.com
 
 Blog List Application
 
-A full stack blog list application where users can save and manage blog posts.
+A full stack blog list application where users can save and manage blog entries.
 
 Technologies used:
 
