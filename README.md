@@ -9,9 +9,6 @@ Phonebook Web Application
 
 A full stack web application for managing contacts. Users can add, update and delete phonebook entries.
 
-Live application:
-https://fullstack2-phonebook.onrender.com
-
 Blog List Application
 
 A full stack blog list application where users can save and manage blog entries.
